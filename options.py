@@ -6,6 +6,7 @@ c.content.headers.user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleW
 c.hints.chars = "asdfghjklzxcvbnm" 
 
 c.scrolling.bar = "always"
+c.scrolling.smooth = True
 
 c.statusbar.widgets = ["search_match", "url", "scroll"]
 

@@ -8,7 +8,6 @@ unbind = [
     "<Alt-7>",
     "<Alt-8>",
     "<Alt-9>",
-    "d",
     "J",
     "K",
     "H",
@@ -29,6 +28,8 @@ keymap = {
     "<Ctrl-9>": "tab-focus 9",
     "H": "tab-prev",
     "L": "tab-next",
+    "<Ctrl-d>": "cmd-run-with-count 15 scroll down",
+    "<Ctrl-u>": "cmd-run-with-count 15 scroll up",
 }
 for lhs, rhs in keymap.items():
     config.bind(lhs, rhs)
