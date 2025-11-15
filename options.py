@@ -10,7 +10,7 @@ c.scrolling.smooth = True
 
 c.statusbar.widgets = ["search_match", "url", "scroll"]
 
-c.tabs.padding = {"top": 5, "bottom": 5, "left": 3, "right": 3}
+c.tabs.padding = {"top": 2, "bottom": 2, "left": 3, "right": 3}
 
 c.url.default_page = "https://bing.com"
 c.url.start_pages = "https://bing.com"
