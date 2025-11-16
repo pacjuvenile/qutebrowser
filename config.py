@@ -1,3 +1,8 @@
+def require(mod):
+    mod = mod.replace(".", "/")
+    mod = "python/" + mod + ".py"
+    config.source(mod)
+
 config.load_autoconfig(False)
-config.source("options.py")
-config.source("keymaps.py")
+require("settings.options")
+require("settings.keymaps")
