@@ -4,5 +4,5 @@ def require(mod):
     config.source(mod)
 
 config.load_autoconfig(False)
-require("settings.options")
-require("settings.keymaps")
+require("core.options")
+require("core.keymaps")
