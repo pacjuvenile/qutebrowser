@@ -1,4 +1,5 @@
 unbind = [
+    # 默认标签页切换
     "<Alt-1>",
     "<Alt-2>",
     "<Alt-3>",
@@ -13,6 +14,7 @@ for unbind_lhs in unbind:
     config.unbind(unbind_lhs) 
 
 keymap = {
+    # 标签页切换
     "<Ctrl-1>": "tab-focus 1",
     "<Ctrl-2>": "tab-focus 2",
     "<Ctrl-3>": "tab-focus 3",
@@ -22,6 +24,7 @@ keymap = {
     "<Ctrl-7>": "tab-focus 7",
     "<Ctrl-8>": "tab-focus 8",
     "<Ctrl-9>": "tab-focus 9",
+    # vim风格浏览
     "<Ctrl-d>": "cmd-run-with-count 15 scroll down",
     "<Ctrl-u>": "cmd-run-with-count 15 scroll up",
 }
