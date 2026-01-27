@@ -27,6 +27,8 @@ keymap = {
     # vim风格浏览
     "<Ctrl-d>": "cmd-run-with-count 15 scroll down",
     "<Ctrl-u>": "cmd-run-with-count 15 scroll up",
+    # 清除消息通知
+    "<Ctrl-l>": "clear-messages"
 }
 for lhs, rhs in keymap.items():
     config.bind(lhs, rhs)
