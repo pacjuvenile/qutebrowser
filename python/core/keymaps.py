@@ -11,7 +11,7 @@ unbind = [
     "<Alt-9>",
 ]
 for unbind_lhs in unbind:
-    config.unbind(unbind_lhs) 
+    config.unbind(unbind_lhs)
 
 keymap = {
     # 标签页切换
