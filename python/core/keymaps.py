@@ -9,6 +9,10 @@ unbind = [
     "<Alt-7>",
     "<Alt-8>",
     "<Alt-9>",
+    "H",
+    "J",
+    "K",
+    "L"
 ]
 for unbind_lhs in unbind:
     config.unbind(unbind_lhs)
@@ -24,9 +28,18 @@ keymap = {
     "<Ctrl-7>": "tab-focus 7",
     "<Ctrl-8>": "tab-focus 8",
     "<Ctrl-9>": "tab-focus 9",
-    # vim风格浏览
+    "H": "tab-prev",
+    "L": "tab-next",
+    # 历史记录
+    "J": "forward",
+    "K": "back",
+    # 平滑滚动版翻半页
     "<Ctrl-d>": "cmd-run-with-count 15 scroll down",
     "<Ctrl-u>": "cmd-run-with-count 15 scroll up",
+    # 模拟鼠标悬停
+    "<Ctrl-h>": "hint all hover",
+    # 复制链接url
+    "<Ctrl-y>": "hint links yank",
     # 清除消息通知
     "<Ctrl-l>": "clear-messages"
 }
