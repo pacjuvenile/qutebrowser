@@ -40,6 +40,8 @@ keymap = {
     "<Ctrl-h>": "hint all hover",
     # 复制链接url
     "<Ctrl-y>": "hint links yank",
+    # 用mpv播放视频
+    "<Ctrl-m>": "hint videos spawn mpv {hint-url} --keep-open=yes --geometry=80%+200+200",
     # 清除消息通知
     "<Ctrl-l>": "clear-messages"
 }

@@ -15,6 +15,7 @@ c.scrolling.smooth = True
 c.hints.padding = {"bottom": 1, "left": 1, "right": 1, "top": 1}
 c.hints.border = "none"
 c.hints.chars = "abcdefghijklmnopqrstuvwxyz"
+c.hints.selectors["videos"] = ["video"]
 
 c.statusbar.padding = {"bottom": 1, "left": 3, "right": 3, "top": 1}
 c.statusbar.widgets = ["search_match", "text:|", "url", "text:|", "scroll"]
