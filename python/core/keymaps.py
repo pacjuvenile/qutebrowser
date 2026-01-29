@@ -43,7 +43,7 @@ keymap = {
     # 复制链接url
     "<Ctrl-y>": "hint links yank",
     # 用mpv播放视频
-    "<Ctrl-m>": "hint videos spawn mpv {hint-url} --keep-open=yes --geometry=80%+200+200",
+    "<Ctrl-m>": "hint videos spawn mpv chint-url} --keep-open=yes --geometry=80%+200+200",
 }
 for lhs, rhs in keymap.items():
     config.bind(lhs, rhs)
