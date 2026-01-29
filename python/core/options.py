@@ -12,14 +12,16 @@ c.url.searchengines = {"DEFAULT": "https://google.com/search?q={}"}
 c.scrolling.bar = "overlay"
 c.scrolling.smooth = True
 
-c.hints.padding = {"bottom": 1, "left": 1, "right": 1, "top": 1}
-c.hints.border = "none"
-c.hints.chars = "abcdefghijklmnopqrstuvwxyz"
-c.hints.selectors["videos"] = ["video"]
-
 c.statusbar.padding = {"bottom": 1, "left": 3, "right": 3, "top": 1}
-c.statusbar.widgets = ["search_match", "text:|", "url", "text:|", "scroll"]
+c.statusbar.widgets = ["search_match", "text:|", "url", "text:|", "scroll", "text:|", "tabs"]
 
 c.tabs.padding = {"top": 3, "bottom": 3, "left": 3, "right": 3}
 
 c.window.hide_decoration = True
+
+c.zoom.levels = ["20%", "30%", "40%", "50%", "60%","70%", "80%", "90%", "100%", "110", "120", "130", "140%", "150%", "160%", "170%", "180%", "190%", "200%"]
+
+c.hints.padding = {"bottom": 1, "left": 1, "right": 1, "top": 1}
+c.hints.border = "none"
+c.hints.chars = "abcdefghijklmnopqrstuvwxyz"
+c.hints.selectors["videos"] = ["video"]

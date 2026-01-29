@@ -36,14 +36,14 @@ keymap = {
     # 平滑滚动版翻半页
     "<Ctrl-d>": "cmd-run-with-count 15 scroll down",
     "<Ctrl-u>": "cmd-run-with-count 15 scroll up",
+    # 清除消息通知
+    "<Ctrl-l>": "clear-messages",
     # 模拟鼠标悬停
     "<Ctrl-h>": "hint all hover",
     # 复制链接url
     "<Ctrl-y>": "hint links yank",
     # 用mpv播放视频
     "<Ctrl-m>": "hint videos spawn mpv {hint-url} --keep-open=yes --geometry=80%+200+200",
-    # 清除消息通知
-    "<Ctrl-l>": "clear-messages"
 }
 for lhs, rhs in keymap.items():
     config.bind(lhs, rhs)
