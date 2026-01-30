@@ -9,10 +9,6 @@ unbind = [
     "<Alt-7>",
     "<Alt-8>",
     "<Alt-9>",
-    "H",
-    "J",
-    "K",
-    "L"
 ]
 for unbind_lhs in unbind:
     config.unbind(unbind_lhs)
@@ -28,11 +24,6 @@ keymap = {
     "<Ctrl-7>": "tab-focus 7",
     "<Ctrl-8>": "tab-focus 8",
     "<Ctrl-9>": "tab-focus 9",
-    "H": "tab-prev",
-    "L": "tab-next",
-    # 历史记录
-    "J": "forward",
-    "K": "back",
     # 平滑滚动版翻半页
     "<Ctrl-d>": "cmd-run-with-count 15 scroll down",
     "<Ctrl-u>": "cmd-run-with-count 15 scroll up",
