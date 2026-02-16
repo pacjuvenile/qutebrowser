@@ -4,3 +4,7 @@ AI-deepseek   https://chat.deepseek.com
 AI-kimi       https://kimi.com/chat
 AI-doubao     https://doubao.com/chat
 AI-qianwen    https://qianwen.com/
+
+vim-lua快速入门	https://learnxinyminutes.com/docs/lua/
+vim-lua-guide	https://neovim.io/doc/user/lua-guide.html
+vim-kickstart.nvim	https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua
