@@ -8,3 +8,5 @@ AI-qianwen    https://qianwen.com/
 vim-lua快速入门	https://learnxinyminutes.com/docs/lua/
 vim-lua-guide	https://neovim.io/doc/user/lua-guide.html
 vim-kickstart.nvim	https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua
+vim-parser	https://github.com/nvim-treesitter/nvim-treesitter/blob/main/SUPPORTED_LANGUAGES.md
+vim-ls	https://github.com/neovim/nvim-lspconfig/tree/master/lsp
