@@ -11,3 +11,4 @@ vim-kickstart.nvim	https://github.com/nvim-lua/kickstart.nvim/blob/master/init.l
 vim-parser	https://github.com/nvim-treesitter/nvim-treesitter/blob/main/SUPPORTED_LANGUAGES.md
 vim-ls	https://mason-registry.dev/registry/list
 vim-lspconfig	https://github.com/neovim/nvim-lspconfig/tree/master/lsp
+vim-lsp-zero https://github.com/VonHeikemen/lsp-zero.nvim
