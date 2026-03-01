@@ -1,2 +1,2 @@
 config.load_autoconfig(False)
-config.source('python/config.py')
+config.source('python/custom/init.py')
